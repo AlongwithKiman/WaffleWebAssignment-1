@@ -34,6 +34,7 @@
     overflow:hidden;
 }
 
+
 .nav_right span
 {
     display:inline-block;
@@ -42,16 +43,12 @@
     text-align: center;
 }
 
-@media screen and (max-width: 1000px) {
-.nav_right span
-{
-    display:none;
-}
-}   
+
 .nav_right span a
 {
     text-decoration: none;
     color:#727A88;
+    text-align: center;
 }
 .scrollbody
 {
@@ -68,12 +65,12 @@
 {
     background: #1e2023;
     float:left;
-    width:50%;
+    width:25%;
     height:100px;
     position: relative;
 	height: 0;  
 	overflow: hidden;
-	padding-bottom: 50%;
+	padding-bottom: 25%;
 }
 .box1 .wrap
 {
@@ -91,7 +88,7 @@
 
 .box1 .wrap img
 {
-    height: 180px;
+    height: 90px;
     width: 180px;
     transition: all ease 0.5s 0s;
 }
@@ -103,12 +100,12 @@
 
 .box2{
     float:left;
-    width:100%;
+    width:50%;
     height:100px;
     position: relative;
 	height: 0;  
 	overflow: hidden;
-	padding-bottom: 50%;
+	padding-bottom: 25%;
 }
 
 .box2 .wrap
