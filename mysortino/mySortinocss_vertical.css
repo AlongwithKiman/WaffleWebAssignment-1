@@ -35,20 +35,28 @@
 }
 
 
-.nav_right span
+.nav_right span a
 {
     display:inline-block;
+    text-decoration-line: none;
     width:15%;
     color:#727A88;
     text-align: center;
 }
 
-
 .nav_right span a
 {
-    text-decoration: none;
+    display:inline-block;
+    text-decoration-line: none;
+    width:15%;
     color:#727A88;
     text-align: center;
+    transition: all ease 0.5s 0s;
+}
+
+.nav_right span a:hover
+{
+    color:whitesmoke;  
 }
 .scrollbody
 {
@@ -94,7 +102,7 @@
 }
 .box1 .wrap img:hover
 {
-    height: 240px;
+    height: 120px;
     width: 240px;
 }
 

@@ -34,14 +34,20 @@
     overflow:hidden;
 }
 
-.nav_right span
+.nav_right span a
 {
     display:inline-block;
+    text-decoration-line: none;
     width:15%;
     color:#727A88;
     text-align: center;
+    transition: all ease 0.5s 0s;
 }
 
+.nav_right span a:hover
+{
+    color:whitesmoke;  
+}
 @media screen and (max-width: 1000px) {
 .nav_right span
 {
