@@ -7,15 +7,15 @@
 .menu
 {
     float:left;
-    text-align: left;
     position: relative;
+    top:3px;
     left:30px;
 }
 
 .logo
 {
-    color : blue;
     text-align: center;
+    left:15px;
 }
 
 .score
@@ -47,8 +47,12 @@ li.hor
 h3.hor
 {
     display : inline;
+    font-size: 12px;
 }
-
+.broadcasthead span
+{
+    font-size: 10px;
+}
 .hotclip_list_item
 {
     display : inline-block;
@@ -138,6 +142,10 @@ h3.hor
 .headlineset img
 {
     height: 500px;
+}
+.headlineset p
+{
+    font-size: 22px;
 }
 .headline
 {
@@ -255,6 +263,16 @@ h3.hor
 {
     width:99%;
 }
+.videoquarter div p
+{
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 2px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    word-wrap:normal;
+}
 
 .showmore 
 {
@@ -288,8 +306,12 @@ h3.hor
 {
     float:left;
     position: relative;
-    left: 5px;
-    top:5px;
+    overflow:hidden;
+}
+.adcontent p
+{
+    float:left;
+    text-indent: 5px;
 }
 
 .home_airs {
@@ -325,7 +347,7 @@ h3.hor
 .articletitle
 {
     text-indent: 20px;
-    font-size:18px;
+    font-size:12px;
     margin-top:1px;
     margin-bottom: 1px;
 }   
@@ -503,6 +525,8 @@ span
 
 .leaguetitle h3
 {
+    margin-top: 2px;
+
     display: inline-block;
     font-size: 25px;
 }
